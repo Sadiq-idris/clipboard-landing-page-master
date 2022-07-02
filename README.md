@@ -24,8 +24,13 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
-
-![](./screenshot.jpg)
+![Screen Shot 2022-07-02 at 15 40 28](https://user-images.githubusercontent.com/106121876/177005496-1cba79cd-01d3-44e6-be8b-1a3247d50701.png)
+![Screen Shot 2022-07-02 at ![Screen Shot 2022-07-02 at 15 40 50](https://user-images.githubusercontent.com/106121876/177005506-03c339b6-0fde-42e6-9173-866347e49ab6.png)
+15 40 42](https://user-images.githubusercontent.com/106121876/177005501-983b6b71-8da0-42ff-8a08-1c320ee4f385.png)
+![Screen Shot 20![Screen Shot 2022-07-02 at 15 41 46](https://user-images.githubusercontent.com/106121876/177005521-5012163b-37ad-4f60-943b-a9de1742904b.png)
+22-07-02 at 15 41 35](https://user-images.githubusercontent.com/106121876/177005515-abcfea29-1086-4ffc-bdca-2a1c21079acb.png)
+![Screen Shot 2022-07-02 at 15 42 00](https://user-images.githubusercontent.com/106121876/177005523-54112ba0-37a8-4476-a2bc-3f249f1505c8.png)
+![Screen Shot 2022-07-02 at 15 42 11](https://user-images.githubusercontent.com/106121876/177005524-1216e4fa-3eaa-487c-8282-a055fd4ceec4.png)
 
 
 ### Links
