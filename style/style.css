@@ -1,0 +1,342 @@
+/*global styles*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Bai Jamjuree';
+    font-size:20px;
+    word-spacing:5pX;
+}
+
+p{
+    font-weight:400;
+    color:hsl(201, 11%, 66%);
+    font-size:16px;
+}
+
+h1{
+    font-weight:600;
+    color:hsl(210, 10%, 33%);
+  
+    margin-bottom:15px;
+}
+h2{
+    font-weight:600;
+    color:hsl(210, 10%, 33%);
+   
+    margin-bottom:15px;
+}
+h3{
+    font-weight:600;
+    color:hsl(210, 10%, 33%);
+   
+    margin-bottom:15px;
+}
+
+section{
+    text-align:center;
+}
+
+/*global button*/
+.btn1{
+    width:170px;
+    height:50px;
+    margin-top:35px;
+    color:white;
+    background-color: hsl(171, 66%, 44%);
+    border-radius:30px;
+    box-shadow:5px 5px 10px  hsl(171, 41%, 73%);
+    border:none;
+}
+.btn1:hover{
+    background-color:hsl(171, 51%, 65%);
+}
+
+.btn2{
+    width:170px;
+    height:50px;
+    margin-top:35px;
+    color:white;
+    background-color:hsl(233, 100%, 69%);
+    border-radius:30px;
+    box-shadow:5px 5px 10px hsl(233, 62%, 75%);
+    border:none;
+}
+
+.btn2:hover{
+    background-color:hsl(233, 47%, 69%);
+}
+
+/*header images*/
+.c img{
+    width:80px;
+    margin:150px auto;
+}
+
+.c{
+    background-image:url("../images/bg-header-desktop.png");
+    background-size:cover;
+    background-attachment: scroll;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:300px;
+}
+
+/*history*/
+.history{
+    width:50%;
+    margin:0 auto 100px auto;
+}
+
+/*track*/
+
+.track{
+    width:40%;
+    margin:100px auto ;
+}
+
+/*quick*/
+
+.quick{
+    width:100%;
+    margin-bottom:100px;
+    display:flex;
+}
+
+
+.quick .computer{
+    width:50%;
+   margin-left:-40px;
+}
+
+
+.quick .search{
+    padding:0 100px;
+    width:40%;
+    margin:50px 0;
+    text-align:left;
+}
+
+.quick .search div{
+    margin:30px 0;
+}
+/*access*/
+
+.access{
+    display:block;
+    width:40%;
+    margin:80px auto;
+}
+
+ .device{
+    width:50%;
+    margin:0 auto 50px auto;
+}
+
+/*workflow*/
+
+.workflow{
+    width:100%;
+    margin-bottom:50px;
+
+}
+
+.work{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.container{
+    width:85%;
+    margin:auto;
+    margin-bottom:120px;
+}
+
+.blacklist,.text,.preview{
+    width:350px;
+}
+
+.blacklist img,.text img,.preview img{
+    width:35px;
+    margin-bottom:20px;
+}
+
+/*logo of some companies*/
+
+.companies{
+    width:85%;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:100px;
+}
+
+
+.companies span .microsoft,.companies span .google,.companies span .ibm,.companies span .hp,
+.companies span .vector{
+    width:130px;
+}
+
+
+.main-footer{
+    width:100%;
+    background-color: rgb(238, 238, 238);
+    height:130px;
+}
+
+.footer{
+    width:85%;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    padding-top:30px;
+}
+
+.footer .logo{
+    width:50px;
+    
+}
+
+.footer .nav{
+    list-style:none;
+    display:flex;
+    flex-wrap:wrap;
+    width:40%;
+    margin-left:100px;
+}
+
+.footer .nav li{
+    margin:5px 20px;
+}
+
+.footer .nav li a{
+    text-decoration:none;
+    color:hsl(210, 10%, 33%);
+}
+
+.footer .nav li a:hover{
+    color:hsl(171, 66%, 44%);
+}
+
+.attribution{
+    width:100%;
+    background-color:rgb(238, 238, 238);
+}
+
+
+/*media query*/
+
+@media(max-width:500px){
+    .c img{
+        width:100px;
+        margin:100px auto;
+    }
+    .c{
+        background-image:url("../images/bg-header-mobile.png");
+        background-size:cover;
+        background-attachment: scroll;
+    
+        background-repeat: no-repeat;
+        background-position: center center;
+        height:300px;
+    }
+
+    .history{
+        width:90%;
+        margin:0 auto 100px auto;
+    }
+
+    .btn1{
+        width:270px;
+    }
+
+    .btn2{
+        width:270px;
+    }
+
+    .track{
+        width:90%;
+        margin:100px auto ;
+    }
+
+    .quick{
+        display:block;
+        margin:auto;
+        text-align:center;
+    }
+
+    .quick .computer{
+        width:85%;
+        margin:0;
+    }
+    .quick .search{
+        width:90%;
+        padding:0;
+        margin:auto;
+        text-align:center;
+    }
+
+    .access{
+        width:90%;
+        margin:80px auto;
+    }
+    
+     .device{
+        width:90%;
+        margin:0 auto 50px auto;
+    }
+    
+    .work{
+        flex-wrap:wrap;
+    }
+
+    .blacklist,.text,.preview {
+        margin:30px 0;
+    }
+        
+    .companies{
+        display:block;
+        margin-bottom:130px;
+    }
+        
+    .companies span .microsoft,.companies span .google,.companies span .ibm,.companies span .hp,
+    .companies span .vector{
+        display:block;
+        margin:50px auto;
+    }
+
+    .container{
+        margin-bottom:80px;
+    }
+
+    .main-footer{
+        height:100%;
+        text-align:center;
+    }
+
+    .footer{
+        margin:auto;
+        display:block;
+        padding-top:30px;
+        width:100%;
+    }
+    .footer .nav{ 
+        width:100%;
+        margin:auto;
+        display: block;
+       padding:20px 0;
+        text-align:center;
+    }
+
+    .footer .nav li{
+        margin:10px 0;
+        text-align:center;
+    }
+}
