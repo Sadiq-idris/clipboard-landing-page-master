@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [checkit out](https://cadc7a4a.sadiq-idris-clipboard-landing-page-master.pages.dev/)
 
 ## My process
   i start my creating html and code the html then the css . i always start the css from the header to footer.after that the mobile version,media query to make responsive as best as i can.the i review it twice to if there is some errors.
